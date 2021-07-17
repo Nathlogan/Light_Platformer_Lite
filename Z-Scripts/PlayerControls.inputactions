@@ -1,0 +1,213 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Right Controls",
+            "id": "1e792854-98b3-44c2-a6c2-254184f1259f",
+            "actions": [
+                {
+                    "name": "Toggle Laser",
+                    "type": "Button",
+                    "id": "c658e59c-5556-4f8a-91e2-bb8258bb68c0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Toggle Flashlight",
+                    "type": "Button",
+                    "id": "72ce4146-1122-4b73-b62d-2095b6e0cf77",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Toggle Color",
+                    "type": "Button",
+                    "id": "6f069600-a39d-45d3-a0a2-6a6fca91da71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move Platform",
+                    "type": "Button",
+                    "id": "29d42915-0333-46cc-9573-b122bb84bc8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Spawn Crystal",
+                    "type": "Button",
+                    "id": "2470d4ec-a1a6-4d59-af6e-7577d539f73f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Leap",
+                    "type": "Button",
+                    "id": "2a0f05a7-c817-43b4-a1f0-efc71ff61e5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "694bc782-ed8c-4ab3-89a0-addb4eb350f7",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Toggle Laser",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "748367d3-16cb-4669-b799-19441fd97936",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Toggle Flashlight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b47da69c-35a7-420c-bf01-c2c871b9206d",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Toggle Color",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9fb0d25c-c74c-429e-a8c4-54c38a3ae391",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Move Platform",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "9d45f261-9c4d-4a07-bb3e-12b4f3239558",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn Crystal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "f1e20a2e-b64d-4ca7-9a63-1e2e4586fd76",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Spawn Crystal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "f5158888-9178-42b5-92d5-ad08514093d1",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Spawn Crystal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "2b2af361-8b47-4145-8e53-182aa0519407",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Leap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Left Controls",
+            "id": "4904ecc3-ca24-42a1-995c-71e1766e0243",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "bb152657-c27c-4714-8794-0ad0796f3c7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ActivateTeleport",
+                    "type": "Button",
+                    "id": "ff731e29-1489-48ce-80d2-a73d7ab383af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b2214a14-e98a-4e40-a4eb-322001e15eef",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3d4c5ee-7213-49d2-b628-92a33d02f25d",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6d7e6f3-22b6-48ea-ba63-d6f0d2ceb281",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PlatformerControls",
+                    "action": "ActivateTeleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PlatformerControls",
+            "bindingGroup": "PlatformerControls",
+            "devices": []
+        }
+    ]
+}
